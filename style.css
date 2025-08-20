@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, Arial, sans-serif;
+  transition: all;
+}
+body {
+  height: 100vh;
+  background-image: linear-gradient(270deg, #ebf4f5, #b5c6e0);
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header > i {
+  margin-right: 20px;
+  font-size: x-large;
+}
+.home {
+  padding: 10px;
+  margin-top: 10px;
+}
+.home > h1 {
+  margin-top: 10px;
+}
+.home > p {
+  margin-top: 10px;
+}
+.socials {
+  margin-top: 20px;
+}
+.socials > i {
+  font-size: x-large;
+  cursor: pointer;
+}
+.cta {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home > video {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.skills {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  margin: 20px 10px;
+  border-radius: 10px;
+}
+.skills > h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.projects {
+  margin: 20px 10px;
+  padding: 10px;
+}
+.projects > h2 {
+  margin-bottom: 30px;
+}
+.cardProjeto > ul > li {
+  margin-top: 1px;
+  margin-left: 20px;
+}
+.cardProjeto > ul {
+  margin: 10px 10px;
+}
+#shopcartimg {
+  width: 100%;
+  object-fit: contain;
+}
+.links {
+  margin-top: 10px;
+}
+.links > a {
+  text-decoration: none;
+  color: black;
+}
+.links > a:first-child {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
