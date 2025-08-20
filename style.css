@@ -18,6 +18,7 @@ header {
 header > i {
   margin-right: 20px;
   font-size: x-large;
+  cursor: pointer;
 }
 .home {
   padding: 10px;
@@ -90,4 +91,109 @@ header > i {
 .links > a:first-child {
   background-color: rgba(0, 0, 0, 0.3);
   padding: 10px;
+}
+
+/* Sobre */
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bio > h2,
+.bio > p {
+  margin: 5px auto;
+  padding: 10px;
+  text-align: justify;
+  /* background-color: aqua; */
+}
+.links {
+  margin: 15px auto;
+}
+
+/* Formação e Experiência */
+
+.formation-and-xp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formation {
+  padding: 10px;
+}
+.formation > p {
+  margin-top: 5px;
+}
+
+.experience {
+}
+
+/* Cursos */
+
+.courses {
+  padding: 10px;
+}
+
+/* Curso 1 */
+
+.course-1 {
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: background-color 250ms ease-in-out;
+}
+.course-1 > h3 {
+  padding: 10px;
+  cursor: pointer;
+}
+.course-1:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.desc-1 {
+  background-color: rgba(217, 217, 217, 0.54);
+  display: none;
+  flex-direction: column;
+  padding: 10px;
+}
+.desc-1 > ul {
+  margin-left: 20px;
+}
+
+/* Curso 2 */
+
+.course-2 {
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: background-color 250ms ease-in-out;
+}
+.course-2 > h3 {
+  padding: 10px;
+  cursor: pointer;
+}
+.course-2:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.desc-2 {
+  background-color: rgba(217, 217, 217, 0.54);
+  display: none;
+  flex-direction: column;
+  padding: 10px;
+}
+.desc-2 > ul {
+  margin-left: 20px;
+}
+
+/* Contato */
+.contact {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  text-indent: 18px;
+}
+
+/* Rodapé */
+
+footer {
+  text-align: center;
 }
