@@ -22,7 +22,8 @@ header > i {
 }
 .home {
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 .home > h1 {
   margin-top: 10px;
@@ -95,21 +96,26 @@ header > i {
 
 /* Sobre */
 
+.about {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 .bio {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding: 10px;
 }
 
 .bio > h2,
 .bio > p {
-  margin: 5px auto;
+  margin: 5px 0;
   padding: 10px;
   text-align: justify;
   /* background-color: aqua; */
 }
 .links {
-  margin: 15px auto;
+  margin: 15px 10px;
 }
 
 /* Formação e Experiência */
@@ -117,7 +123,6 @@ header > i {
 .formation-and-xp {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .formation {
@@ -196,4 +201,62 @@ header > i {
 
 footer {
   text-align: center;
+}
+
+/* Media Querys */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    padding: 10px 6%;
+  }
+  .socials > i {
+    font-size: xx-large;
+  }
+  .frameworks > img {
+    width: 80px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    padding: 15px 8%;
+  }
+  .socials > i {
+    font-size: 40px;
+  }
+  .frameworks > img {
+    width: 96px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    padding: 20px 10%;
+  }
+  .socials > i {
+    font-size: 50px;
+  }
+  .frameworks > img {
+    width: 112px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    padding: 20px 15%;
+  }
+  .socials > i {
+    font-size: 60px;
+  }
+  .frameworks > img {
+    width: 128px;
+  }
 }
